@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+    <img width="300" align="center" src="https://repository-images.githubusercontent.com/346402665/17e19380-840e-11eb-86b6-5475e99b6392">
+</p>
 
-## Getting Started
+<h1 align="center">
+   Ig News
+</h1>
 
-First, run the development server:
+<p align="center">
+  <a href="#rocket-sobre-o-projeto">Sobre o projeto</a> | <a href="#computer-tecnologias">Tecnologias</a> | <a href="#books-guia-de-instalação-e-execução">Guia de instalação e execução</a> |
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Layout
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img src="https://github.com/Leandro-Goncalves/ignews/raw/main/files/img/web/home.png">
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## :rocket: Sobre o projeto
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+IgNews é um projeto desenvolvido no curso Ignite. tratase de um site de noticias desenvolvido em next com integração com o stripe para pagamentos, faunadb como banco de dados serverless, prismic para cms de noticias
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## :computer: Tecnologias
 
-## Learn More
+- [React.js](https://pt-br.reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Axios](https://github.com/axios/axios)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Yup](https://github.com/jquense/yup)
+- [Jest](https://jestjs.io/)
+- [Next Js](https://nextjs.org)
+- [Sass](https://sass-lang.com)
+- [FaunaDb](https://fauna.com)
+- [Stripe](https://stripe.com/br)
 
-To learn more about Next.js, take a look at the following resources:
+## :books: Guia de instalação e execução
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Pré-requisitos
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en/) v10.20 ou maior
+- [Yarn](https://yarnpkg.com/)
 
-## Deploy on Vercel
+### Como executar
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Clone o repositório `git clone https://github.com/lucas6g/ignews`
+- Vá até o diretório `cd ignews`
+- Execute `yarn` para instalar as dependências
+- Execute `yarn start` para rodar o servidor
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Caso deseje executar os testes unitários basta executar `yarn test` em seu terminal.
+- Para visualizar um relatório detalhado sobre a cobertura dos testes rode `yarn test:coverage` e acesse o arquivo `coverage/lcov-report/index.html`.
