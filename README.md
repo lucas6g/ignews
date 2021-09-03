@@ -44,18 +44,17 @@ IgNews é um projeto desenvolvido no curso Ignite. tratase de um site de noticia
 ⚠️ Quando clonar a aplicação não se esqueça de:
  - Criar um arquivo .env com os seguintes dados:
    - Stripe
-      - STRIPE_API_KEY
+      - STRIPE_SECRET_KEY
       - NEXT_PUBLIC_STRIPE_PUBLIC_KEY
       - STRIPE_WEBHOOK_SECRET
-      - STRIPE_SUCCESS_URL
-      - STRIPE_CANCEL_URL
+      
    - Github
        - GITHUB_CLIENT_ID
-       - GITHUB_CLIENT_SECRET
+       - GITHUB_SECRET
    - FaunaDB
-       - FAUNADB_KEY
+       - FAUNADB_SECRET_KEY
    - Prismic CMS
-       - PRISMIC_ENDPOINT
+       - PRISMIC_API_URL
        - PRIMIC_ACCESS_TOKEN
 
 - Clone o repositório `git clone https://github.com/lucas6g/ignews`
