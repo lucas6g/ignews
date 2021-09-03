@@ -41,10 +41,27 @@ IgNews é um projeto desenvolvido no curso Ignite. tratase de um site de noticia
 
 ### Como executar
 
+⚠️ Quando clonar a aplicação não se esqueça de:
+ - Criar um arquivo .env com os seguintes dados:
+   - Stripe
+      - STRIPE_API_KEY
+      - NEXT_PUBLIC_STRIPE_PUBLIC_KEY
+      - STRIPE_WEBHOOK_SECRET
+      - STRIPE_SUCCESS_URL
+      - STRIPE_CANCEL_URL
+   - Github
+       - GITHUB_CLIENT_ID
+       - GITHUB_CLIENT_SECRET
+   - FaunaDB
+       - FAUNADB_KEY
+   - Prismic CMS
+       - PRISMIC_ENDPOINT
+       - PRIMIC_ACCESS_TOKEN
+
 - Clone o repositório `git clone https://github.com/lucas6g/ignews`
 - Vá até o diretório `cd ignews`
 - Execute `yarn` para instalar as dependências
-- Execute `yarn start` para rodar o servidor
+- Execute `yarn dev` para rodar o servidor
 
 - Caso deseje executar os testes unitários basta executar `yarn test` em seu terminal.
 - Para visualizar um relatório detalhado sobre a cobertura dos testes rode `yarn test:coverage` e acesse o arquivo `coverage/lcov-report/index.html`.
