@@ -42,7 +42,7 @@ IgNews é um projeto desenvolvido no curso Ignite. tratase de um site de noticia
 ### Como executar
 
 ⚠️ Quando clonar a aplicação não se esqueça de:
- - Criar um arquivo .env com os seguintes dados:
+ - Criar um arquivo .env.local com os seguintes dados:
    - Stripe
       - STRIPE_SECRET_KEY
       - NEXT_PUBLIC_STRIPE_PUBLIC_KEY
